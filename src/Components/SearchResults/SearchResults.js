@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import { userSelector } from "../../redux/user-reducer/selectors";
 import RepoList from "../RepoList";
 import "./SearchResults.css";
 

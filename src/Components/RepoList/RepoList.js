@@ -1,11 +1,10 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import { userSelector } from "../../redux/user-reducer/selectors";
 import "./RepoList.css";
 
 const RepoList = () => {
-    
+
     const getRepos = useSelector((state)=> {return state.user?.filteredRepos?.items});
 
     return (
